@@ -1,6 +1,9 @@
 import Image from "next/image";
 import localFont from "next/font/local";
+import { Montserrat as FontSans } from 'next/font/google';
+
 import MainLayout from "@/components/@layouts/main-layout";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -13,10 +16,15 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+const fontSans = FontSans({
+  subsets: ['latin'],
+  variable: '--font-sans',
+});
+
 export default function Home() {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
+      className={`${fontSans.variable} font-[family-name:var(--font-geist-sans)]`}
     >
       {/* Layouts here (you can test your layouts here) */}
       <MainLayout>this is working</MainLayout>
