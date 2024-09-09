@@ -19,6 +19,8 @@ export default function Home() {
       className={`${geistSans.variable} ${geistMono.variable} font-[family-name:var(--font-geist-sans)]`}
     >
       {/* Layouts here (you can test your layouts here) */}
+      <MainLayout>this is working</MainLayout>
     </div>
+
   );
 }
