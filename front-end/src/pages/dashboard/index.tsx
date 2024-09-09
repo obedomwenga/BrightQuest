@@ -1,5 +1,5 @@
 import MainLayout from '@/components/@layouts/main-layout'
-import { Bell, Book, Brain, Coins, Home, Palette, PenTool, Rocket, Star, Wallet } from 'lucide-react'
+import { Bell, Book, Brain, Coins, Palette, PenTool, Rocket, Star, Wallet } from 'lucide-react'
 import Image from 'next/image'
 
 export default function Dashboard(){

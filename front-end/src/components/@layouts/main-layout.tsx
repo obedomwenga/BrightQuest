@@ -1,4 +1,5 @@
 import Aside from "../@shared-components/aside";
+import RightAside from "../@shared-components/right-aside";
 
 export default function MainLayout({ children }) {
 
@@ -8,6 +9,8 @@ export default function MainLayout({ children }) {
         <Aside />
       {/* Main content */}
       <main className="flex-1 p-8 overflow-auto"> { children } </main>
+
+      <RightAside />
     
     </div>
   )
