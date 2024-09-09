@@ -1,9 +1,9 @@
 import Image from 'next/image'
 
-export default function SessionLayout({ children }) {
+export default function SessionLayout({ children, bgColor }) {
   return (
-    <div className="min-h-screen bg-yellow-300 flex items-center justify-center p-4">
-      <div className="w-full max-w-4xl flex flex-col md:flex-row items-center bg-yellow-200 rounded-3xl overflow-hidden shadow-xl">
+    <div className={`min-h-screen bg-yellow-300 flex items-center justify-center p-4`}>
+      <div className={`w-full max-w-4xl flex flex-col md:flex-row items-center bg-${bgColor}-200 rounded-3xl overflow-hidden shadow-xl`}>
         { children }
         <div className="w-full md:w-1/2 relative">
           {/* <Image
