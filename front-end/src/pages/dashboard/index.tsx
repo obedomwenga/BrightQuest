@@ -4,6 +4,7 @@ import Image from 'next/image'
 
 export default function Dashboard(){
     return(
+        <>
         <MainLayout>
             <header className="flex justify-between items-center mb-8">
             <h1 className="text-4xl font-bold text-blue-600">Learn, Play, and Earn!</h1>
@@ -97,5 +98,7 @@ export default function Dashboard(){
             </div>
             </section>
         </MainLayout>
+        {/* <RightAside /> */}
+        </>
     )
 }

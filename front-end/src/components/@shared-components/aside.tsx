@@ -4,7 +4,7 @@ import AsideItems from './aside-items';
 
 const menuItems = [
     {
-      link: '/Home',
+      link: '/dashboard',
       Icon: Home,
       title: 'Dashboard',
       color: 'blue'
