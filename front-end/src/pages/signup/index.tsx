@@ -10,7 +10,7 @@ const fontSans = FontSans({
 
 export default function Signup(){
     return (
-        <SessionLayout bgColor="purple">
+        <SessionLayout bgColor="yellow">
             <div className={cn("w-full md:w-1/2 p-8 md:p-12 font-montserrat", fontSans.variable)}>
                 <h2 className="text-xl text-yellow-800 mb-4">Unlock a World of Knowledge and Creativity</h2>
                 <h1 className="text-4xl md:text-5xl font-bold text-yellow-900 mb-6">
